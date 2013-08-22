@@ -1,0 +1,14 @@
+{
+  "name": "DownloadsSorter",
+  "description": "Save downloaded files into datestamped folders.",
+  "version": "0.0.1",
+  "minimum_chrome_version": "30.0.1599",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "downloads"
+  ],
+  "manifest_version": 2
+}
